@@ -1,9 +1,6 @@
 {
   "name": "ga2-81edb0",
-  "image": "mcr.microsoft.com/devcontainers/universal",
-  "features": {
-    "ghcr.io/devcontainers/features/python:1": {}
-  },
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -12,5 +9,5 @@
       ]
     }
   },
-  "postCreateCommand": "uv pip install fastapi"
+  "postCreateCommand": "pip install fastapi"
 }
